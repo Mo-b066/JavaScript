@@ -1,9 +1,15 @@
-//console.log('hallo');
-//console.log('i like pizza');
+let vorname = "Mo"; 
+let nachname = "Barah Jekly";
+let alter = 22;
+let eingeschrieben = true;
 
-//window.alert('hallo');
-//window.alert('hallo bot');
+//console.log(`Dein name ist ${vorname, nachname} und du bist ${alter} Jahre alt.`);
 
+document.getElementById("p1").textContent = `Dein Vorname ist "${vorname}"`;
+document.getElementById("p2").textContent = `Dein Nachname ist "${nachname}"`;
+document.getElementById("p3").textContent = `Dein Alter ist "${alter}"`;
+document.getElementById("p4").textContent = `Eingeschrieben "${eingeschrieben}"`;
 
-document.getElementById("myH1").textContent = 'hallo';
-document.getElementById("myP").textContent = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
+console.log(typeof vorname);
+console.log(typeof alter);
+console.log(typeof eingeschrieben);

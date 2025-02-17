@@ -1,8 +1,8 @@
-//console.log('hallo');
-//console.log('i like pizza');
+console.log('hallo');
+console.log('i like pizza');
 
-//window.alert('hallo');
-//window.alert('hallo bot');
+window.alert('hallo');
+window.alert('hallo bot');
 
 
 document.getElementById("myH1").textContent = 'hallo';
